@@ -13,7 +13,6 @@ services:
       - "8090:8090"
     volumes:
       - confluence_data:/var/confluence
-      - ./confluence/confluence.cfg.xml:/var/confluence/confluence.cfg.xml
       - confluence_core:/opt/confluence
       - ./confluence/server.xml:/opt/confluence/conf/server.xml
     restart: always
