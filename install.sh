@@ -19,5 +19,4 @@ sudo chmod 755 $DESTINATION
 
 git clone https://github.com/vncloudsco/confluence-install
 cd confluence-install
-docker-compose -f docker-compose-build.yaml build
-docker-compose -f docker-compose-build.yaml up -d
+docker-compose  up -d
