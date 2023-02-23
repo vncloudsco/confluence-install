@@ -14,7 +14,6 @@ services:
     volumes:
       - confluence_data:/var/confluence
       - confluence_core:/opt/confluence
-      - ./confluence/server.xml:/opt/confluence/conf/server.xml
     restart: always
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8090"]
