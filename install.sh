@@ -17,6 +17,6 @@ DESTINATION=/usr/local/bin/docker-compose
 sudo curl -L https://github.com/docker/compose/releases/download/${VERSION}/docker-compose-$(uname -s)-$(uname -m) -o $DESTINATION
 sudo chmod 755 $DESTINATION
 
-git clone https://github.com/vncloudsco/confluence-install
+git clone -b 8.1.3 https://github.com/vncloudsco/confluence-install
 cd confluence-install
-docker-compose  up -d
+docker-compose  -f docker-compose-build.yaml up -d

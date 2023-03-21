@@ -4,7 +4,7 @@ LABEL maintainer="vouu <contact@manhtuong.net>" version="7.19.5"
 
 ARG ATLASSIAN_PRODUCTION=confluence
 ARG APP_NAME=confluence
-ARG APP_VERSION=7.19.5
+ARG APP_VERSION=8.1.3
 ARG AGENT_VERSION=1
 ARG MYSQL_DRIVER_VERSION=8.0.22
 
