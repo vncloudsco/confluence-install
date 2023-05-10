@@ -1,10 +1,10 @@
 FROM openjdk:8-stretch
 
-LABEL maintainer="vouu <contact@manhtuong.net>" version="7.19.5"
+LABEL maintainer="vouu <contact@manhtuong.net>" version="8.2.2"
 
 ARG ATLASSIAN_PRODUCTION=confluence
 ARG APP_NAME=confluence
-ARG APP_VERSION=7.19.5
+ARG APP_VERSION=8.2.2
 ARG AGENT_VERSION=1
 ARG MYSQL_DRIVER_VERSION=8.0.22
 
