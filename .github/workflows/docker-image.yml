@@ -21,6 +21,6 @@ jobs:
       run:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build -t vouu/confluence:build-$(date +"%m-%d-%Y") .
+      run: cd confluence && docker build -t vouu/confluence:build-$(date +"%m-%d-%Y") .
     - name: Docker Push
       run: docker push vouu/confluence:build-$(date +"%m-%d-%Y")
