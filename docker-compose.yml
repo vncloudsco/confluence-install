@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   confluence:
-    image: vouu/confluence:build-05-10-2023
+    image: vouu/confluence:build-05-20-2023
     container_name: confluence-srv
     environment:
       - TZ=Asia/Shanghai
